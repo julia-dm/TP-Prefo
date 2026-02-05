@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #ffffff;
+}
 .container{
 max-width: 1024px;
 margin: 0 auto;
@@ -29,7 +32,7 @@ h1{
     height: 150px;
 align-content: center;
 background-color: #cca9a9;
-position: fixed;
+border-radius: 10px;
 left:0;
 top:30px;
 position: absolute;
@@ -50,7 +53,7 @@ top:30px;
   left: 170px;
     min-width: 417px;
     min-height: 200px;
-    background-color: #b10e0e;
+    background-color: rgba(67, 108, 255, 0.5);
     padding-left: 110px;
     padding-top: 80px;
     border-radius: 10px;
@@ -66,7 +69,7 @@ top:30px;
    /* max-width: 900px; */
      min-width: 417px;
     min-height: 200px;
-    background-color: #ffd416;
+    background-color: rgba(253, 218, 45, 0.5);
     padding-left: 110px;
     padding-top: 80px;
     border-radius: 10px;
@@ -83,7 +86,7 @@ top:30px;
    /* max-width: 900px; */
     min-width: 417px;
     min-height: 200px;
-    background-color: #16b11d;
+    background-color: rgba(22, 177, 29,0.5);
     padding-left: 110px;
     padding-top: 80px;
     border-radius: 10px;
@@ -99,7 +102,7 @@ top:30px;
    /* max-width: 900px; */
      min-width: 417px;
     min-height: 200px;
-    background-color: #ff5e13;
+    background-color: rgba(255, 94, 19,0.5);
     padding-left: 110px;
     padding-top: 80px;
     border-radius: 10px;
@@ -115,12 +118,15 @@ top:30px;
 footer{
     position: fixed;
 bottom: 0;
-    background-color: red;
+    background-color: #193cb8;
 width: 100%;
 
    }
    p{
     padding: 50px;
+   text-align: center;
+   color: #ffffff;
+   font-size: 30px;
    }
    .interview{
     position: absolute;
