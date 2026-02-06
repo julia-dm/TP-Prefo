@@ -26,12 +26,13 @@ header{
     padding: 20px;
     width: 100%;
     height: 141px;
-    
+    background-image: url(../img/backgroung__img.png)
 }
 h1{
     text-align: center;
     font-size: 40px;
-    color: #193cb8;
+    color:#51478f;
+ text-shadow:2px 2px #ff6b0a;
 }
 .logo{
     background-color: #193cb8;
@@ -145,6 +146,7 @@ top:30px;
    
    .card__border:hover{
     border: 4px solid  #492828;
+   
    }
    
    
@@ -152,6 +154,13 @@ top:30px;
 .section__links{
     text-decoration: none;
 color: #000000; 
+
+font-size: 25px;
+   }
+   .section__links:hover{
+    text-decoration: none;
+color: #494040; 
+text-shadow: 1px 1px red;
 font-size: 25px;
    }
                     /* FOOTER */
@@ -438,3 +447,4 @@ border-radius: 10px;
 .span__text{
     font-weight: bold;
 }
+
