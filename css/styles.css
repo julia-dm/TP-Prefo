@@ -298,7 +298,7 @@ padding: 8px;
    color: white;
 }
 /* RAPPORT.HTML */
-.rapport__container{
+.rapport__container__altarriba{
 position: absolute;
 max-width: 824px;
 left: 200px;
@@ -314,4 +314,43 @@ border-radius: 10px;
 .company__description{
     font-size: 19px;
     padding: 20px;
+}
+.rapport__container__aurelien{
+position: absolute;
+max-width: 824px;
+left: 450px;
+top: 400px;
+background-color: #c7b9b9;
+border-radius: 10px;
+ box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+}
+.rapport__container__links{
+    position: absolute;
+max-width: 824px;
+min-height: 120px;
+left: 200px;
+top: 550px;
+background-color: #c7b9b9;
+border-radius: 10px;
+ box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+ 
+}
+.rapport__title{
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0;
+    color: #193cb8;
+}
+.rapport__list{
+    list-style: none;
+    padding: 10px;
+
+}
+.rapport__link{
+    text-decoration: none;
+    font-size: 17px;
+    color: #193cb8;
+ border: 3px solid rgba(255, 255, 255,0.5);
+ border-radius: 10px;
+
 }
