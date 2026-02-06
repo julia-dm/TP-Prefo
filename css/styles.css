@@ -296,3 +296,13 @@ padding: 8px;
    background-color: #0866ff;
    color: white;
 }
+/* RAPPORT.HTML */
+.rapport__container{
+position: absolute;
+max-width: 824px;
+left: 200px;
+top: 30px;
+background-color: #c7b9b9;
+border-radius: 10px;
+ box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+}
