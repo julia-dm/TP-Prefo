@@ -348,9 +348,54 @@ border-radius: 10px;
 }
 .rapport__link{
     text-decoration: none;
-    font-size: 17px;
-    color: #193cb8;
- border: 3px solid rgba(255, 255, 255,0.5);
- border-radius: 10px;
+   color: #193cb8;
+   font-size: 17px;
+   line-height: 2.3;
+font-weight: 500;
+border: 3px solid rgba(255, 255, 255,0.5);
+border-radius: 10px;
+padding: 5px;
+}
+.rapport__link:hover{
+     background-color: rgba(8, 102, 255,0.5);
+ border: 3px solid rgba(8, 102, 255,0.5);
+ color: #ffffff;
+}
+.web__dev__info__work {
+    position: absolute;
+max-width: 824px;
+min-height: 120px;
+left: 200px;
+top: 865px;
+background-color: #c7b9b9;
+border-radius: 10px;
+ box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+}
+.web__dev__info_education{
+    position: absolute;
+max-width: 824px;
+min-height: 120px;
+left: 200px;
+top: 1040px;
+background-color: #c7b9b9;
+border-radius: 10px;
+ box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+}
+.web__dev__info__suggestions{
+    position: absolute;
+max-width: 824px;
+min-height: 120px;
+left: 200px;
+top: 1240px;
+background-color: #c7b9b9;
+border-radius: 10px;
+ box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
 
+}
+.web__text{
+    font-size: 18px;
+    padding: 10px;
+}
+.web__title{
+    
 }
