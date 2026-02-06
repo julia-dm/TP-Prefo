@@ -29,6 +29,7 @@ header{
     
 }
 h1{
+    text-align: center;
     font-size: 40px;
     color: #193cb8;
 }
@@ -262,7 +263,7 @@ border-radius: 10px;
  box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
 }
 .personal__info__title{
-padding-left: 320px;
+text-align: center;
 padding-top: 20px;
 padding-bottom: 20px;
 font-size: 30px;
@@ -305,4 +306,12 @@ top: 30px;
 background-color: #c7b9b9;
 border-radius: 10px;
  box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+}
+.company__title{
+    padding-top: 10px;
+    text-align: center;
+}
+.company__description{
+    font-size: 19px;
+    padding: 20px;
 }
