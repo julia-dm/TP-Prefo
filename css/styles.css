@@ -208,6 +208,14 @@ overflow: hidden;
     max-height: 400px;
     /* transform: max-height 0.7s; */
 }
+#accordeon .accordeon__item  input[type="radio"]:checked +label .arrow{
+    transform: rotate(180deg);
+    transition: transform 0.7 ease;
+
+}
+.arrow{
+    margin-left:40px;
+}
 
 .interview__question__list{
 border:none;
@@ -238,6 +246,7 @@ position: sticky;
    background-color: #0866ff;
    color: white;
 }
+
 
 /* PARCOURS.HTML */
 .personal__info{
