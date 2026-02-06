@@ -248,6 +248,10 @@ position: sticky;
    color: white;
 }
 
+.interview__title{
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 /* PARCOURS.HTML */
 .personal__info{
@@ -370,6 +374,7 @@ top: 865px;
 background-color: #c7b9b9;
 border-radius: 10px;
  box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+
 }
 .web__dev__info_education{
     position: absolute;
@@ -390,12 +395,46 @@ top: 1240px;
 background-color: #c7b9b9;
 border-radius: 10px;
  box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
-
+padding-bottom: 10px;
 }
 .web__text{
     font-size: 18px;
     padding: 10px;
 }
 .web__title{
-    
+    text-align: center;
+  color:#193cb8;
+ 
+}
+.rapport__img{
+    border-radius: 10px;
+}
+
+.rapport__footer{
+    margin-top: 1500px;
+position: sticky;
+}
+
+/* CONCLUTION.HTML */
+.conclution__container{
+    position: absolute;
+max-width: 824px;
+min-height: 120px;
+left: 200px;
+top: 30px;
+background-color: #c7b9b9;
+border-radius: 10px;
+ box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+
+}
+.conclution__title{
+    text-align: center;
+
+}
+.conclution__text{
+    padding: 10px;
+    font-size: 17px;
+}
+.span__text{
+    font-weight: bold;
 }
