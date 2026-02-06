@@ -5,12 +5,17 @@
 }
 body{
     background-color: #ffffff;
+    line-height: 1.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
 max-width: 1024px;
 margin: 0 auto;
    position: relative;
 }
+         
+                        /* INDEX.HTML */
+    /* HEADER */
 header{
     background-color: #c7b9b9;
 
@@ -32,9 +37,10 @@ h1{
     background-color:  rgba(255, 94, 19,0.7);
     border-radius: 50%;
 }
+/* NAVIGATION */
 .nav__menu{
     width: 150px;
-    height: 250px;
+    height: 300px;
 align-content: center;
 background-color:  #c7b9b9;
 border-radius: 10px;
@@ -65,6 +71,7 @@ padding: 6px;
  border: 3px solid rgba(8, 102, 255,0.5);
  color: #ffffff;
 }
+/* CARDS */
 .card1{
     position:absolute;
 top:30px;
@@ -138,11 +145,12 @@ top:30px;
    
    
 
-   .section__links{
+.section__links{
     text-decoration: none;
 color: #000000; 
 font-size: 25px;
    }
+   /* FOOTER */
 footer{
     position: fixed;
 bottom: 0;
@@ -156,6 +164,7 @@ width: 100%;
    color: #ffffff;
    font-size: 20px;
    }
+   /* INTERVIEW.HTML */
    .interview{
     position: absolute;
 max-width: 824px;
@@ -172,12 +181,11 @@ top: 30px;
 }
 #accordeon .accordeon__item  label{
 padding-left: 20px;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
 }
 
 #accordeon .accordeon__item label + .interview__answer{
-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     padding-top: 10px;
     font-size: 25px;
 font-size: 18px;
@@ -195,4 +203,26 @@ overflow: hidden;
 .interview__question__list{
 border:none;
  margin-bottom: 0;
+}
+/* PARCOURS.HTML */
+.personal__info__container{
+position: absolute;
+max-width: 824px;
+left: 200px;
+top: 30px;
+background-color: #c7b9b9;
+border-radius: 10px;
+ box-shadow: rgba(94, 71, 71, 0.3) 0 12px 24px 3px;
+}
+.personal__info__title{
+padding-left: 12px;
+padding-top: 20px;
+font-size: 25px;
+}
+.personal__text{
+color: black;
+
+}
+.personal__photo{
+    border-radius:10px
 }
