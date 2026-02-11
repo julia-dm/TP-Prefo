@@ -1,147 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Interview</title>
-     <link rel="icon" href="img/logo.svg" type="images/svg+xml">
+    <link rel="icon" href="img/logo.svg" type="images/svg+xml">
 </head>
-<body>
- 
-       <header id="go__up">
-        <h1>INTERVIEW</h1>
-        <a href="parcours.html">
-             <img class="logo" src="/img/main__loggo.svg" alt="double i">
-        </a>
-       </header>
-           <div class="container">
 
-                <nav class="nav__menu">
-        <ul class="nav__list">
+<body>
+
+    <header id="go__up">
+        <h1>INTERVIEW</h1>
+
+    </header>
+    <div class="container">
+
+        <nav class="nav__menu">
+            <ul class="nav__list">
                 <li><a class="nav__links" href="index.html">Accueil</a></li>
-              <li><a class="nav__links" href="rapport.html">Rapport</a></li>
-            <li><a class="nav__links" href="interview.html">Interview</a></li>
-            <li><a class="nav__links" href="parcours.html">Parcours</a></li>
-           <li><a class="nav__links" href="conclution.html">Conclution</a></li>
-        </ul>
-    </nav>
-    <aside class="interview">
-     <nav id="accordeon" >
-      <ul>
-        <h2 class="interview__title">Question - Reponse </h2>
-        <li class="accordeon__item" >
-            <input type="radio" id="one" name="accordeon">
-            <label for="one">Comment avez-vous découvert que vous vouliez devenir développeur web ? 
-                <img  class="arrow" src="img/arrow.svg" alt="arrow">
-            </label>
-            <div class="interview__answer">
-                <q>
-Tout petit déjà, j'adorais coder. J'ai vraiment pris le déclic quand j'ai acheté le livre « Apprenez à coder en C » de Mathieu Nebra (le créateur d'OpenClassrooms). J'ai tout de suite aimé le fait que, contrairement au développement logiciel classique qui peut prendre des mois pour voir un résultat concret, le web offre des retours ultra-rapides : tu codes, tu actualises la page, et bam, tu vois le fruit de ton travail immédiatement. C'est addictif ! 
-                </q>
-            </div>
-        </li>
-        <li  class="accordeon__item">
-            <input type="radio" id="two" name="accordeon">
-            <label for="two">Avez-vous un diplôme ? Si oui, lequel ? 
-                 <img  class="arrow" src="img/arrow.svg" alt="arrow"> </label>
-            <div class="interview__answer">
-                <q>
-Oui : Bac STI2D, BTS SIO option SLAM (Services Informatiques aux Organisations – Solutions Logicielles et Applications Métiers), Licence SIG WEB (Systèmes d'Information Géographique Web) / Licence CDAN (Concepteur Développeur d'Applications Numériques). 
-                </q>
-            </div>
-             </li>
-            <li  class="accordeon__item" >
-            <input type="radio" id="three" name="accordeon">
-            <label for="three">À quoi vous attendiez-vous lors de votre premier jour de travail ? 
-                 <img  class="arrow" src="img/arrow.svg" alt="arrow"> </label>
-            <div class="interview__answer">
-                <q>
-J'espérais avoir beaucoup de liberté et pouvoir plonger directement dans les vrais problèmes de l'entreprise pour les résoudre et les faire avancer plus vite. Et c'est exactement ce que j'ai eu
-                </q>
-            </div>
-        </li>
-         <li  class="accordeon__item">
-            <input type="radio" id="four" name="accordeon">
-            <label for="four">Comment vos collègues vous ont-ils accueilli ?  
-                 <img  class="arrow" src="img/arrow.svg" alt="arrow">
-            </label>
-            <div class="interview__answer">
-                <q>
-Super bien ! L'équipe faisait 5-6 développeurs, donc l'ambiance était familiale. Dès le premier jour, on échangeait des astuces, on pair-programmait… J'ai été très bien intégré, avec une vraie entraide. 
-                </q>
-            </div>
-        </li>
-         <li  class="accordeon__item" >
-            <input type="radio" id="five" name="accordeon">
-            <label for="five">Quels langages utilisez-vous au quotidien ? 
-                 <img  class="arrow" src="img/arrow.svg" alt="arrow">  </label>
-            <div class="interview__answer">
-                <q>
-TypeScript, sans hésiter. Depuis que je l'ai découvert, je ne fais plus que ça. C'est pour moi le meilleur langage du web actuel : super polyvalent (front, back, jeux vidéo, web, IA, apps desktop…), il permet d'écrire du code propre, maintenable, scalable… Il a vraiment tout ce que je recherche dans un langage. 
-                </q>
-            </div>
-        </li>
-         <li  class="accordeon__item">
-            <input type="radio" id="six" name="accordeon">
-            <label for="six">Quelles sources utilisez-vous pour rester à jour ?  
-                 <img  class="arrow" src="img/arrow.svg" alt="arrow">  </label>
-            <div class="interview__answer">
-                <q>
-Je suis assez geek : je me suis codé mon propre bot Discord qui scrape l'actualité tech/marketing toutes les 10 minutes ! Il va piocher sur : Developpez.com, Blog du Modérateur, Dynamique Mag, Les Echos Entrepreneur. Et il me notifie les news les plus pertinentes. J'utilise aussi beaucoup Mistral.ai (l'IA française) pour résumer ou creuser les sujets rapidement. 
-                </q>
-            </div>
-        </li>
-         <li  class="accordeon__item">
-            <input type="radio" id="seven" name="accordeon">
-            <label for="seven">Craignez-vous que l'IA puisse vous remplacer à l'avenir ? 
-                  <img  class="arrow" src="img/arrow.svg" alt="arrow">  </label>
-            </label>
-            <div class="interview__answer">
-                <q>
-L'IA nous fait gagner un temps fou sur les tâches rébarbatives (générer une liste HTML caractère par caractère pendant 2h) On lui demande de corriger, d'optimiser… et ça libère du temps pour ce qui a vraiment de la valeur. Mais remplacer le développeur comme on pourrait remplacer un médecin ? Non, clairement pas. L'IA est un outil ultra-puissant, pas un remplaçant.
-                </q>
-            </div>
-        </li>
-         <li  class="accordeon__item">
-            <input type="radio" id="eight" name="accordeon">
-            <label for="eight">Quelles qualités attendez-vous maintenant des nouveaux développeurs juniors ?  
-                <img  class="arrow" src="img/arrow.svg" alt="arrow"> 
-            </label>
-            <div class="interview__answer">
-                <q>
-Pour moi, les deux qualités essentielles sont : la motivation et une énorme curiosité. Aimer vraiment le métier : dans le dev, il y a 1/3 de technique pure et 2/3 de motivation pour continuer à apprendre et progresser. J'ajoute aussi : aimer aider les autres, aller voir les collègues, comprendre leurs galères, résoudre leurs problèmes ensemble. C'est une vraie philanthropie technique ! 
-                </q>
-            </div>
-        </li>
-         <li class="accordeon__item" >
-            <input type="radio" id="nine" name="accordeon">
-            <label for="nine">Ce travail est-il stressant pour vous ? 
-                <img  class="arrow" src="img/arrow.svg" alt="arrow"> 
-            </label>
-            <div class="interview__answer">
-                <q>
-Le travail en soi n'est pas stressant… mais les clients, si ! Cahier des charges qui change toutes les semaines, demandes de modifications infinies, course aux bugs, clients très (ou pas du tout) exigeants… C'est souvent là que ça se corse. 
-                </q>
-            </div>
-        </li>
-         <li  class="accordeon__item">
-            <input type="radio" id="ten" name="accordeon">
-            <label for="ten">Vos 3 conseils pour un junior ? 
-                <img  class="arrow" src="img/arrow.svg" alt="arrow"> 
-            </label>
-            <div class="interview__answer">
-           
-                 <p class="interview__suggestions"><span class="number">1.</span>    Trouve ce qui te plaît vraiment dans le développement web : le métier est hyper varié (UI/UX, back-end, full stack, sécurite, IA, jeux…). Choisis ta voie avec passion. </p>
-                <p class="interview__suggestions"><span class="number">2.</span> Sois curieux et reste à jour : le web évolue à une vitesse folle, il faut se former régulièrement. </p>
-                <p class="interview__suggestions"><span class="number">3.</span> Comprends vraiment la machine : ne copie-colle pas bêtement du code IA sans savoir ce qu'il fait. Apprends à penser comme un algorithme, à raisonner étape par étape</p>
-          
-            </div>
-        </li>
-<a href="#go__up" class="go__up__link">Retour</a>
-</div>
-<footer  class="footer__interview">
- <p class="footer__text">© 2026 - Yuliia Dmytruk</p>
-</footer>
+                <li><a class="nav__links" href="rapport.html">Rapport</a></li>
+                <li><a class="nav__links" href="interview.html">Interview</a></li>
+                <li><a class="nav__links" href="parcours.html">Parcours</a></li>
+                <li><a class="nav__links" href="conclusion.html">Conclusion</a></li>
+            </ul>
+        </nav>
+        <aside class="interview">
+            <nav id="accordeon">
+                <ul>
+                    <h2 class="interview__title">Question - Reponse </h2>
+                    <li class="accordeon__item">
+                        <input type="radio" id="one" name="accordeon">
+                        <label for="one">Comment avez-vous découvert que vous vouliez devenir développeur web ?
+                            <!-- <img  class="arrow" src="img/arrow.svg" alt="arrow"> -->
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow">
+                        </label>
+                        <div class="interview__answer">
+                            <q>
+                                Tout petit déjà, j'adorais coder. J'ai vraiment pris le déclic quand j'ai acheté le
+                                livre « Apprenez à coder en C » de Mathieu Nebra (le créateur d'OpenClassrooms). J'ai
+                                tout de suite aimé le fait que, contrairement au développement logiciel classique qui
+                                peut prendre des mois pour voir un résultat concret, le web offre des retours
+                                ultra-rapides : tu codes, tu actualises la page, et bam, tu vois le fruit de ton travail
+                                immédiatement. C'est addictif !
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="two" name="accordeon">
+                        <label for="two">Avez-vous un diplôme ? Si oui, lequel ?
+                            <!-- <img  class="arrow" src="img/arrow.svg" alt="arrow"> </label> -->
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow"> </label>
+                        <div class="interview__answer">
+                            <q>
+                                Oui : Bac STI2D, BTS SIO option SLAM (Services Informatiques aux Organisations –
+                                Solutions Logicielles et Applications Métiers), Licence SIG WEB (Systèmes d'Information
+                                Géographique Web) / Licence CDAN (Concepteur Développeur d'Applications Numériques).
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="three" name="accordeon">
+                        <label for="three">À quoi vous attendiez-vous lors de votre premier jour de travail ?
+                            <!-- <img  class="arrow" src="img/arrow.svg" alt="arrow"> </label> -->
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow"> </label>
+                        <div class="interview__answer">
+                            <q>
+                                J'espérais avoir beaucoup de liberté et pouvoir plonger directement dans les vrais
+                                problèmes de l'entreprise pour les résoudre et les faire avancer plus vite. Et c'est
+                                exactement ce que j'ai eu
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="four" name="accordeon">
+                        <label for="four">Comment vos collègues vous ont-ils accueilli ?
+                            <!-- <img  class="arrow" src="img/arrow.svg" alt="arrow"> -->
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow">
+                        </label>
+                        <div class="interview__answer">
+                            <q>
+                                Super bien ! L'équipe faisait 5-6 développeurs, donc l'ambiance était familiale. Dès le
+                                premier jour, on échangeait des astuces, on pair-programmait… J'ai été très bien
+                                intégré, avec une vraie entraide.
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="five" name="accordeon">
+                        <label for="five">Quels langages utilisez-vous au quotidien ?
+                            <!-- <img  class="arrow" src="img/arrow.svg" alt="arrow">  -->
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow">
+                        </label>
+                        <div class="interview__answer">
+                            <q>
+                                TypeScript, sans hésiter. Depuis que je l'ai découvert, je ne fais plus que ça. C'est
+                                pour moi le meilleur langage du web actuel : super polyvalent (front, back, jeux vidéo,
+                                web, IA, apps desktop…), il permet d'écrire du code propre, maintenable, scalable… Il a
+                                vraiment tout ce que je recherche dans un langage.
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="six" name="accordeon">
+                        <label for="six">Quelles sources utilisez-vous pour rester à jour ?
+                            <!-- <img  class="arrow" src="img/arrow.svg" alt="arrow"> -->
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow">
+                        </label>
+                        <div class="interview__answer">
+                            <q>
+                                Je suis assez geek : je me suis codé mon propre bot Discord qui scrape l'actualité
+                                tech/marketing toutes les 10 minutes ! Il va piocher sur : Developpez.com, Blog du
+                                Modérateur, Dynamique Mag, Les Echos Entrepreneur. Et il me notifie les news les plus
+                                pertinentes. J'utilise aussi beaucoup Mistral.ai (l'IA française) pour résumer ou
+                                creuser les sujets rapidement.
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="seven" name="accordeon">
+                        <label for="seven">Craignez-vous que l'IA puisse vous remplacer à l'avenir ?
+                            <!-- <img  class="arrow" src="img/arrow.svg" alt="arrow">  -->
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow">
+                        </label>
+                        </label>
+                        <div class="interview__answer">
+                            <q>
+                                L'IA nous fait gagner un temps fou sur les tâches rébarbatives (générer une liste HTML
+                                caractère par caractère pendant 2h) On lui demande de corriger, d'optimiser… et ça
+                                libère du temps pour ce qui a vraiment de la valeur. Mais remplacer le développeur comme
+                                on pourrait remplacer un médecin ? Non, clairement pas. L'IA est un outil
+                                ultra-puissant, pas un remplaçant.
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="eight" name="accordeon">
+                        <label for="eight">Quelles qualités attendez-vous maintenant des nouveaux développeurs juniors ?
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow">
+                        </label>
+                        <div class="interview__answer">
+                            <q>
+                                Pour moi, les deux qualités essentielles sont : la motivation et une énorme curiosité.
+                                Aimer vraiment le métier : dans le dev, il y a 1/3 de technique pure et 2/3 de
+                                motivation pour continuer à apprendre et progresser. J'ajoute aussi : aimer aider les
+                                autres, aller voir les collègues, comprendre leurs galères, résoudre leurs problèmes
+                                ensemble. C'est une vraie philanthropie technique !
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="nine" name="accordeon">
+                        <label for="nine">Ce travail est-il stressant pour vous ?
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow">
+                        </label>
+                        <div class="interview__answer">
+                            <q>
+                                Le travail en soi n'est pas stressant… mais les clients, si ! Cahier des charges qui
+                                change toutes les semaines, demandes de modifications infinies, course aux bugs, clients
+                                très (ou pas du tout) exigeants… C'est souvent là que ça se corse.
+                            </q>
+                        </div>
+                    </li>
+                    <li class="accordeon__item">
+                        <input type="radio" id="ten" name="accordeon">
+                        <label for="ten">Vos 3 conseils pour un junior ?
+                            <img class="arrow" src="img/bigarrow.svg" alt="arrow">
+                        </label>
+                        <div class="interview__answer">
+
+                            <p class="interview__suggestions"><span class="number">1.</span> Trouve ce qui te plaît
+                                vraiment dans le développement web : le métier est hyper varié (UI/UX, back-end, full
+                                stack, sécurite, IA, jeux…). Choisis ta voie avec passion. </p>
+                            <p class="interview__suggestions"><span class="number">2.</span> Sois curieux et reste à
+                                jour : le web évolue à une vitesse folle, il faut se former régulièrement. </p>
+                            <p class="interview__suggestions"><span class="number">3.</span> Comprends vraiment la
+                                machine : ne copie-colle pas bêtement du code IA sans savoir ce qu'il fait. Apprends à
+                                penser comme un algorithme, à raisonner étape par étape</p>
+
+                        </div>
+                    </li>
+                    <a href="#go__up" class="go__up__link">Retour</a>
+            </nav>
+        </aside>
+        <footer class="footer__interview">
+            <p class="footer__text">© 2026 - Yuliia Dmytruk</p>
+        </footer>
+    </div>
+
 </body>
+
 </html>
